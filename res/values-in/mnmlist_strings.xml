@@ -131,4 +131,10 @@
   <!-- Lockscreen Face Style -->
   <string name="clock_style_title">Wajah jam layar kunci</string>
   <string name="clock_style_summary">Personalisasikan wajah jam di layar kunci perangkat anda</string>
+  <!-- QS rows and columns -->
+  <string name="qs_rows_columns_title">Baris dan kolom ubin</string>
+  <string name="qs_rows_portrait_title">Baris ubin pada potret</string>
+  <string name="qs_rows_landscape_title">Baris ubin di lanskap</string>
+  <string name="qs_columns_portrait_title">Kolom ubin pada potret</string>
+  <string name="qs_columns_landscape_title">Kolom ubin pada lanskap</string>
 </resources>
