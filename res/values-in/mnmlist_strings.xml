@@ -137,4 +137,5 @@
   <string name="qs_rows_landscape_title">Baris ubin di lanskap</string>
   <string name="qs_columns_portrait_title">Kolom ubin pada potret</string>
   <string name="qs_columns_landscape_title">Kolom ubin pada lanskap</string>
+  <string name="qs_tile_title_visibility_title">Tampilkan judul ubin</string>
 </resources>

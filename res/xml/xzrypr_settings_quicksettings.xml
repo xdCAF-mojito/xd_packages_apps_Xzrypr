@@ -51,6 +51,11 @@
           settings:units="" />
 
      <com.xzrypr.settings.preferences.SystemSettingSwitchPreference
+        android:key="qs_tile_title_visibility"
+        android:title="@string/qs_tile_title_visibility_title"
+        android:defaultValue="true" />
+
+     <com.xzrypr.settings.preferences.SystemSettingSwitchPreference
           android:key="artwork_media_background"
           android:title="@string/artwork_media_background_title"
           android:summary="@string/artwork_media_background_summary"
