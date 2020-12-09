@@ -21,6 +21,8 @@ import android.content.Context;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
+import com.android.internal.util.xdroid.Utils;
+import androidx.preference.*;
 import com.android.internal.logging.nano.MetricsProto;
 
 import java.util.ArrayList;
@@ -29,11 +31,24 @@ import java.util.List;
 
 public class Gestures extends SettingsPreferenceFragment {
 
+    private static final String NAVIGATION_BAR_INVERSE = "navbar_inverse_layout";
+
+    private SwitchPreference mSwapNavButtons;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         addPreferencesFromResource(R.xml.xzrypr_settings_gestures);
+
+        final PreferenceScreen prefScreen = getPreferenceScreen();
+        mSwapNavButtons = (SwitchPreference) findPreference(NAVIGATION_BAR_INVERSE);
+
+        if (!Utils.isThemeEnabled("com.android.internal.systemui.navbar.threebutton")) {
+            prefScreen.removePreference(mSwapNavButtons);
+        }
+    }
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        return false;
     }
 
     @Override
