@@ -127,4 +127,7 @@
   <!-- Lockscreen double tap to sleep -->
   <string name="double_tap_sleep_lockscreen_title">Ketuk layar kunci untuk tidur</string>
   <string name="double_tap_sleep_lockscreen_summary">Ketuk dua kali di layar kunci untuk menidurkan perangkat</string>
+  <!-- Lock Icon -->
+  <string name="lockscreen_lock_icon_title">Ikon gembok</string>
+  <string name="lockscreen_lock_icon_summary">Tampilkan ikon gembok di layar kunci anda</string>
 </resources>
