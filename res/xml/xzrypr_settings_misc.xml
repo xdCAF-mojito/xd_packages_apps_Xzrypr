@@ -31,4 +31,10 @@
           android:layout="@layout/xd_pref_card_top"
           android:defaultValue="false" />
 
+     <!-- Gaming mode -->
+     <Preference
+          android:key="gaming_category"
+          android:title="@string/gaming_title" 
+          android:fragment="org.exthmui.settings.fragments.GamingModeSettings"/>
+
 </PreferenceScreen>
