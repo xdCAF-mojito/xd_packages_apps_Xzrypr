@@ -158,4 +158,12 @@
     <string name="statusbar_items_title">Statusbar icon</string>
     <string name="statusbar_items_summary">Personalize your statusbar icon visibility</string>
 
+    <!-- Lock screen Clocks -->
+    <string name="lock_screen_custom_clock_face_title">Lock screen clock style</string>
+    <string name="lock_screen_custom_clock_face_default">Default</string>
+    <string name="lock_screen_custom_clock_face_analog">Analog</string>
+    <string name="lock_screen_custom_clock_face_bubble">Bubble</string>
+    <string name="lock_screen_custom_clock_face_typographic">Typographic</string>
+    <string name="lock_screen_custom_clock_face_android_twelve">Android 12</string>
+
 </resources>
