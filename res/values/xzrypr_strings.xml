@@ -16,28 +16,33 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- Categories -->
-    <string name="gestures_title">Gestures</string>
-    <string name="gestures_summary">Operate your device way easier</string>
-    <string name="misc_title">Miscellaneous</string>
-    <string name="misc_summary">Other features option</string>
-    <string name="statusbar_title">Status Bar</string>
-    <string name="statusbar_summary">Personalize how your Status Bar looks like</string>
+     <!-- Categories -->
+     <string name="gestures_title">Gestures</string>
+     <string name="gestures_summary">Operate your device way easier</string>
+     <string name="misc_title">Miscellaneous</string>
+     <string name="misc_summary">Other features option</string>
+     <string name="statusbar_title">Status Bar</string>
+     <string name="statusbar_summary">Personalize how your Status Bar looks like</string>
 
-    <!-- General strings -->
-    <string name="ok">OK</string>
-    <string name="reset">Reset</string>
-    <string name="cancel">Cancel</string>
-    <string name="save">Save</string>
-	
-    <!-- Color Picker -->
-    <string name="dialog_color_picker">Color Picker</string>
-    <string name="press_color_to_apply">Press on color below to apply</string>
-    <string name="arrow_right">→</string>
-    <string name="arrow_down">↓</string>
-    <string name="hex">Hex:</string>
-    <string name="hex_hint">#ff000000</string>
-    <string name="set">Set</string>
-    <string name="color_default">Default</string>
+     <!-- General strings -->
+     <string name="ok">OK</string>
+     <string name="reset">Reset</string>
+     <string name="cancel">Cancel</string>
+     <string name="save">Save</string>
+
+     <!-- Color Picker -->
+     <string name="dialog_color_picker">Color Picker</string>
+     <string name="press_color_to_apply">Press on color below to apply</string>
+     <string name="arrow_right">→</string>
+     <string name="arrow_down">↓</string>
+     <string name="hex">Hex:</string>
+     <string name="hex_hint">#ff000000</string>
+     <string name="set">Set</string>
+     <string name="color_default">Default</string>
+
+     <!-- Global Actions -->
+     <string name="ls_disable_ga">Global Actions</string>
+     <string name="global_actions_advanced_reboot_title">Enable advanced restart</string>
+     <string name="global_actions_advanced_reboot_summary">Show options for recovery and bootloader</string>
 
 </resources>
