@@ -16,6 +16,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+     <!-- XZRYPR Main -->
+     <string name="xzrypr_title">XZRYPR</string>
+
      <!-- Categories -->
      <string name="gestures_title">Gestures</string>
      <string name="gestures_summary">Operate your device way easier</string>
