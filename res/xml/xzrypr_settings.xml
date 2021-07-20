@@ -24,6 +24,14 @@
         android:title="@string/xzrypr_title"
         android:selectable="false"/>
 
+        <!-- Status Bar -->
+        <Preference
+            android:key="statusbar_category"
+            android:title="@string/statusbar_title"
+            android:summary="@string/statusbar_summary"
+            android:fragment="com.xzrypr.settings.fragments.StatusBar" 
+            android:icon="@drawable/ic_settings_statusbar"/>
+
         <!-- Getures -->
         <Preference
             android:key="gestures_category"
@@ -32,13 +40,13 @@
             android:fragment="com.xzrypr.settings.fragments.Gestures"
             android:icon="@drawable/ic_settings_gestures"/>
 
-        <!-- Status Bar -->
+        <!-- Buttons -->
         <Preference
-            android:key="statusbar_category"
-            android:title="@string/statusbar_title"
-            android:summary="@string/statusbar_summary"
-            android:fragment="com.xzrypr.settings.fragments.StatusBar" 
-            android:icon="@drawable/ic_settings_statusbar"/>
+            android:key="buttons_category"
+            android:title="@string/buttons_title" 
+            android:summary="@string/buttons_summary"
+            android:fragment="com.xzrypr.settings.fragments.Buttons"
+            android:icon="@drawable/ic_settings_buttons"/>
 
         <!-- Misc -->
         <Preference

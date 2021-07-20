@@ -26,6 +26,8 @@
      <string name="misc_summary">Other features option</string>
      <string name="statusbar_title">Status Bar</string>
      <string name="statusbar_summary">Personalize how your Status Bar looks like</string>
+     <string name="buttons_title">Buttons</string>
+     <string name="buttons_summary">Customize your buttons functionality</string>
 
      <!-- General strings -->
      <string name="ok">OK</string>
