@@ -18,4 +18,16 @@
      android:title="@string/buttons_title"
      xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <Preference
+        android:key="power_button_torch_summary"
+        android:title="@string/power_button_torch_title"
+        android:fragment="com.android.settings.gestures.PowerButtonTorchSettings"
+        settings:controller="com.android.settings.gestures.PowerButtonTorchGesturePreferenceController" />
+
+    <Preference
+        android:key="volume_button_music_control_sumary"
+        android:title="@string/volume_button_music_control_title"
+        android:fragment="com.android.settings.gestures.VolumeButtonMusicControlGestureSettings"
+        settings:controller="com.android.settings.gestures.VolumeButtonMusicControlPreferenceController" />
+
 </PreferenceScreen>

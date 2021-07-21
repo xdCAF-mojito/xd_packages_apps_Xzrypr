@@ -25,6 +25,12 @@
         android:summary="@string/clocksettings_summary"
         android:fragment="com.xzrypr.settings.fragments.ClockSettings" />
 
+    <Preference
+        android:key="traffic_settings"
+        android:title="@string/trafficsettings_title"
+        android:summary="@string/trafficsettings_summary"
+        android:fragment="com.android.settings.network.TrafficSettings" />
+
     <com.xzrypr.settings.preferences.SystemSettingListPreference
         android:key="status_bar_show_battery_percent"
         android:title="@string/status_bar_battery_percentage_title"
