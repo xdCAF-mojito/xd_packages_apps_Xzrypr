@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019-2021 The ConquerOS Project
+     Copyright (C) 2021 xdroid, xyzprjkt
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- XZRYPR Main -->
+  <string name="xzrypr_title">XZRYPR</string>
+  <!-- Categories -->
+  <string name="gestures_title">Gestur</string>
+  <string name="gestures_summary">Operasikan perangkat Anda dengan lebih mudah</string>
+  <string name="misc_title">Opsi lain</string>
+  <string name="misc_summary">Opsi fitur lainnya</string>
+  <string name="statusbar_title">Bilah Status</string>
+  <string name="statusbar_summary">Personalisasikan tampilan Bilah Status Anda</string>
+  <string name="buttons_title">Tombol</string>
+  <string name="buttons_summary">Sesuaikan fungsi tombol Anda</string>
+  <!-- General strings -->
+  <string name="ok">OK</string>
+  <string name="reset">Setel ulang</string>
+  <string name="cancel">Batal</string>
+  <string name="save">Simpan</string>
+  <!-- Color Picker -->
+  <string name="dialog_color_picker">Pemilih Warna</string>
+  <string name="press_color_to_apply">Tekan pada warna di bawah ini untuk menerapkan</string>
+  <string name="arrow_right">→</string>
+  <string name="arrow_down">↓</string>
+  <string name="hex">Hex:</string>
+  <string name="hex_hint">#ff000000</string>
+  <string name="set">Atur</string>
+  <string name="color_default">Bawaan</string>
+  <!-- Global Actions -->
+  <string name="ls_disable_ga">Tindakan Global</string>
+  <string name="global_actions_advanced_reboot_title">Aktifkan mulai ulang lanjutan</string>
+  <string name="global_actions_advanced_reboot_summary">Tampilkan opsi untuk pemulihan dan bootloader</string>
+  <!-- Battery Styles -->
+  <string name="status_bar_battery_style_title">Gaya baterai</string>
+  <string name="status_bar_battery_style_icon_portrait">Ikon potret</string>
+  <string name="status_bar_battery_style_circle">Lingkaran</string>
+  <string name="status_bar_battery_style_dotted_circle">Lingkaran titik-titik</string>
+  <string name="status_bar_battery_style_filled_circle">Lingkaran berisi</string>
+  <string name="status_bar_battery_style_text">Teks</string>
+  <string name="status_bar_battery_style_hidden">Tersembunyi</string>
+  <string name="status_bar_battery_percentage_title">Persentase baterai</string>
+  <string name="status_bar_battery_percentage_default">Tersembunyi</string>
+  <string name="status_bar_battery_percentage_text_inside">Di dalam ikon</string>
+  <string name="status_bar_battery_percentage_text_next">Di samping ikon</string>
+  <!-- Customization Categories/Fragment Titles -->
+  <string name="clocksettings_title">Setelan Jam</string>
+  <string name="clocksettings_summary">Setelan jam bilah status</string>
+  <string name="status_bar_clock_date_title">Jam dan Tanggal</string>
+  <string name="status_bar_clock_date_summary">Sesuaikan jam dan tanggal bilah status Anda</string>
+  <string name="status_bar_clock_title">Setelan jam</string>
+  <string name="status_bar_clock_show">Tampilkan jam dan tanggal</string>
+  <string name="status_bar_clock_style_title">Gaya jam</string>
+  <string name="status_bar_clock_style_right">Kanan</string>
+  <string name="status_bar_clock_style_center">Tengah</string>
+  <string name="status_bar_clock_style_left">Kiri</string>
+  <string name="status_bar_date_title">Setelan tanggal</string>
+  <string name="status_bar_am_pm_title">Gaya AM/PM</string>
+  <string name="status_bar_am_pm_info">Waktu 24-jam diaktifkan</string>
+  <string name="status_bar_am_pm_normal">Normal</string>
+  <string name="status_bar_am_pm_small">Kecil</string>
+  <string name="status_bar_am_pm_hidden">Tersembunyi (bawaan)</string>
+  <string name="clock_seconds_display">Tampilkan detik</string>
+  <string name="clock_date_display">Tanggal</string>
+  <string name="clock_date_display_summary">Tampilkan tanggal kustom sebelum jam</string>
+  <string name="clock_date_display_none">Jangan tampilkan</string>
+  <string name="clock_date_display_small">Ukuran font kecil</string>
+  <string name="clock_date_display_normal">Ukuran font normal</string>
+  <string name="clock_date_style">Gaya tanggal</string>
+  <string name="clock_date_style_normal">Normal</string>
+  <string name="clock_date_style_lowercase">Huruf kecil</string>
+  <string name="clock_date_style_uppercase">Huruf besar</string>
+  <string name="clock_date_format_custom">Format java kustom</string>
+  <string name="clock_date_format">Format tanggal</string>
+  <string name="clock_date_string_edittext_title">Harus dalam Format Tanggal misal: MM/dd/yy</string>
+  <string name="clock_date_string_edittext_summary">Masukan kata</string>
+  <string name="clock_date_right">Di kanan jam</string>
+  <string name="clock_date_left">Di kiri jam</string>
+  <string name="clock_date_position">Posisi tanggal</string>
+  <!--  Volume Panel Plugin   -->
+  <string name="volume_panel">Gaya Panel Volume</string>
+  <string name="volume_panel_aosp">AOSP</string>
+  <string name="volume_panel_compact">Ringkas</string>
+  <string name="volume_panel_tiled">Tiled</string>
+  <!--  Volume Panel Plugin Values   -->
+  <string name="volume_panel_aosp_val">co.potatoproject.plugin.volume.aosp</string>
+  <string name="volume_panel_compact_val">co.potatoproject.plugin.volume.compact</string>
+  <string name="volume_panel_tiled_val">co.potatoproject.plugin.volume.tiled</string>
+</resources>
