@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019-2021 The ConquerOS Project
+     Copyright (C) 2021 xdroid, xyzprjkt
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- XZRYPR Main -->
+  <string name="xzrypr_title">XZRYPR</string>
+  <!-- Categories -->
+  <string name="gestures_title">Жесты</string>
+  <string name="gestures_summary">Управляйте своим устройством еще проще</string>
+  <string name="misc_title">Прочее</string>
+  <string name="misc_summary">Другое</string>
+  <string name="statusbar_title">Строка состояния</string>
+  <string name="statusbar_summary">Настройте внешний вид строки состояния</string>
+  <string name="buttons_title">Кнопки</string>
+  <string name="buttons_summary">Настройте функциональность кнопок</string>
+  <!-- General strings -->
+  <string name="ok">ОК</string>
+  <string name="reset">По умолчанию</string>
+  <string name="cancel">Отмена</string>
+  <string name="save">Сохранить</string>
+  <!-- Color Picker -->
+  <string name="dialog_color_picker">Палитра цветов</string>
+  <string name="press_color_to_apply">Нажмите на цвет ниже, чтобы применить</string>
+  <string name="arrow_right">→</string>
+  <string name="arrow_down">↓</string>
+  <string name="hex">Код:</string>
+  <string name="hex_hint">#ff000000</string>
+  <string name="set">Задать</string>
+  <string name="color_default">По умолчанию</string>
+  <!-- Global Actions -->
+  <string name="ls_disable_ga">Глобальные действия</string>
+  <string name="global_actions_advanced_reboot_title">Включить расширенный перезапуск</string>
+  <string name="global_actions_advanced_reboot_summary">Показать параметры восстановления и загрузчика</string>
+  <!-- Battery Styles -->
+  <string name="status_bar_battery_style_title">Стиль батареи</string>
+  <string name="status_bar_battery_style_icon_portrait">Портретная иконка</string>
+  <string name="status_bar_battery_style_circle">Круг</string>
+  <string name="status_bar_battery_style_dotted_circle">Пунктирный круг</string>
+  <string name="status_bar_battery_style_filled_circle">Заполненный круг</string>
+  <string name="status_bar_battery_style_text">Текст</string>
+  <string name="status_bar_battery_style_hidden">Скрытый</string>
+  <string name="status_bar_battery_percentage_title">Процент заряда батареи</string>
+  <string name="status_bar_battery_percentage_default">Скрытый</string>
+  <string name="status_bar_battery_percentage_text_inside">Внутри иконки</string>
+  <string name="status_bar_battery_percentage_text_next">Рядом с иконкой</string>
+  <!-- Customization Categories/Fragment Titles -->
+  <string name="clocksettings_title">Настройки часов</string>
+  <string name="clocksettings_summary">Настройки часов в строке состояния</string>
+  <string name="status_bar_clock_date_title">Часы и дата</string>
+  <string name="status_bar_clock_date_summary">Настройка часов и даты в строке состояния</string>
+  <string name="status_bar_clock_title">Настройки часов</string>
+  <string name="status_bar_clock_show">Показывать часы и дату</string>
+  <string name="status_bar_clock_style_title">Стиль часов</string>
+  <string name="status_bar_clock_style_right">Справа</string>
+  <string name="status_bar_clock_style_center">По центру</string>
+  <string name="status_bar_clock_style_left">Слева</string>
+  <string name="status_bar_date_title">Настройки даты</string>
+  <string name="status_bar_am_pm_title">Стиль AM/PM</string>
+  <string name="status_bar_am_pm_info">24-часовой формат включен</string>
+  <string name="status_bar_am_pm_normal">Обычный</string>
+  <string name="status_bar_am_pm_small">Маленький</string>
+  <string name="status_bar_am_pm_hidden">Скрытый (по умолчанию)</string>
+  <string name="clock_seconds_display">Показать секунды</string>
+  <string name="clock_date_display">Дата</string>
+  <string name="clock_date_display_summary">Отображать дату перед часами</string>
+  <string name="clock_date_display_none">Не показывать</string>
+  <string name="clock_date_display_small">Маленький размер шрифта</string>
+  <string name="clock_date_display_normal">Нормальный размер шрифта</string>
+  <string name="clock_date_style">Стиль даты</string>
+  <string name="clock_date_style_normal">Обычный</string>
+  <string name="clock_date_style_lowercase">Строчные буквы</string>
+  <string name="clock_date_style_uppercase">Прописные</string>
+  <string name="clock_date_format_custom">Пользовательский формат java</string>
+  <string name="clock_date_format">Формат даты</string>
+  <string name="clock_date_string_edittext_title">Должен быть в формате даты. Например: MM/dd/yy</string>
+  <string name="clock_date_string_edittext_summary">Введите строку</string>
+  <string name="clock_date_right">Справа от времени</string>
+  <string name="clock_date_left">Слева от времени</string>
+  <string name="clock_date_position">Расположение даты</string>
+  <!--  Volume Panel Plugin   -->
+  <string name="volume_panel">Стиль панели громкости</string>
+  <string name="volume_panel_aosp">AOSP</string>
+  <string name="volume_panel_compact">Компактный</string>
+  <string name="volume_panel_tiled">Плитка</string>
+  <!--  Volume Panel Plugin Values   -->
+  <string name="volume_panel_aosp_val">co.potatoproject.plugin.volume.aosp</string>
+  <string name="volume_panel_compact_val">co.potatoproject.plugin.volume.compact</string>
+  <string name="volume_panel_tiled_val">co.potatoproject.plugin.volume.tiled</string>
+</resources>
