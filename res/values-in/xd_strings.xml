@@ -26,6 +26,8 @@
   <string name="statusbar_summary">Personalisasikan tampilan Bilah Status Anda</string>
   <string name="buttons_title">Tombol</string>
   <string name="buttons_summary">Sesuaikan fungsi tombol Anda</string>
+  <string name="quicksettings_title">Panel Cepat</string>
+  <string name="quicksettings_summary">Personalisasikan tampilan panel cepat anda</string>
   <!-- General strings -->
   <string name="ok">OK</string>
   <string name="reset">Setel ulang</string>
@@ -99,4 +101,7 @@
   <string name="volume_panel_aosp_val">co.potatoproject.plugin.volume.aosp</string>
   <string name="volume_panel_compact_val">co.potatoproject.plugin.volume.compact</string>
   <string name="volume_panel_tiled_val">co.potatoproject.plugin.volume.tiled</string>
+  <!-- Notification Media Options -->
+  <string name="artwork_media_background_title">Latar belakang QS Media</string>
+  <string name="artwork_media_background_summary">Menggunakan Album Art sebagai latar belakang QS Media</string>
 </resources>

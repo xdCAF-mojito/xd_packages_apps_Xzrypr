@@ -28,6 +28,8 @@
      <string name="statusbar_summary">Personalize how your Status Bar looks like</string>
      <string name="buttons_title">Buttons</string>
      <string name="buttons_summary">Customize your buttons functionality</string>
+     <string name="quicksettings_title">Quick Settings</string>
+     <string name="quicksettings_summary">Customize your quick settings looks</string>
 
      <!-- General strings -->
      <string name="ok">OK</string>
@@ -109,4 +111,8 @@
     <string name="volume_panel_compact_val">co.potatoproject.plugin.volume.compact</string>
     <string name="volume_panel_tiled_val">co.potatoproject.plugin.volume.tiled</string>
 
+    <!-- Notification Media Options -->
+    <string name="artwork_media_background_title">Artwork media background</string>
+    <string name="artwork_media_background_summary">Set media artwork as notification media background</string>
+    
 </resources>

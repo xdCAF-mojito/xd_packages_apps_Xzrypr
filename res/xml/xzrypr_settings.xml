@@ -32,6 +32,14 @@
             android:fragment="com.xzrypr.settings.fragments.StatusBar" 
             android:icon="@drawable/ic_settings_statusbar"/>
 
+        <!-- Quick Settings -->
+        <Preference
+            android:key="quicksettings_category"
+            android:title="@string/quicksettings_title" 
+            android:summary="@string/quicksettings_summary"
+            android:fragment="com.xzrypr.settings.fragments.QuickSettings"
+            android:icon="@drawable/ic_settings_quicksettings"/>
+
         <!-- Getures -->
         <Preference
             android:key="gestures_category"
