@@ -137,4 +137,9 @@
     <string name="xzrypr_volume_button_music_control_title">Music Control</string>
     <string name="xzrypr_volume_button_music_control_summary">Skip or Next Music quickly</string>
 
+    <!-- Lock screen cover art -->
+    <string name="lockscreen_media_art_title">Lockscreen media art</string>
+    <string name="lockscreen_media_art_summary">Display media cover art when playing music</string>
+    <string name="lockscreen_media_blur_title">Media art blur level</string>
+
 </resources>
