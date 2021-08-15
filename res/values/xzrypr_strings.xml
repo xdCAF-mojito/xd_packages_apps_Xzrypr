@@ -30,6 +30,8 @@
      <string name="buttons_summary">Customize your buttons functionality</string>
      <string name="quicksettings_title">Quick Settings</string>
      <string name="quicksettings_summary">Customize your quick settings looks</string>
+     <string name="lockscreen_title">Lock Screen</string>
+     <string name="lockscreen_summary">Personalize your lockscreen page</string>
 
      <!-- General strings -->
      <string name="ok">OK</string>
@@ -115,4 +117,8 @@
     <string name="artwork_media_background_title">Artwork media background</string>
     <string name="artwork_media_background_summary">Set media artwork as notification media background</string>
     
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
+    <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage and battery temperature on lockscreen while charging</string>
+
 </resources>

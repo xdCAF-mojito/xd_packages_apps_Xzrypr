@@ -28,6 +28,8 @@
   <string name="buttons_summary">Sesuaikan fungsi tombol Anda</string>
   <string name="quicksettings_title">Panel Cepat</string>
   <string name="quicksettings_summary">Personalisasikan tampilan panel cepat anda</string>
+  <string name="lockscreen_title">Layar Kunci</string>
+  <string name="lockscreen_summary">Personalisasikan tampilan layar kunci anda</string>
   <!-- General strings -->
   <string name="ok">OK</string>
   <string name="reset">Setel ulang</string>
@@ -104,4 +106,7 @@
   <!-- Notification Media Options -->
   <string name="artwork_media_background_title">Latar belakang QS Media</string>
   <string name="artwork_media_background_summary">Menggunakan Album Art sebagai latar belakang QS Media</string>
+  <!-- Lockscreen battery info indicator  -->
+  <string name="lockscreen_battery_info_title">Informasi pengisian daya</string>
+  <string name="lockscreen_battery_info_summary">Menampilkan informasi daya pengecasan lebih lanjut</string>
 </resources>

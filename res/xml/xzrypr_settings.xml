@@ -56,6 +56,14 @@
             android:fragment="com.xzrypr.settings.fragments.Buttons"
             android:icon="@drawable/ic_settings_buttons"/>
 
+        <!-- Lockscreen -->
+        <Preference
+            android:key="lockscreen_category"
+            android:title="@string/lockscreen_title" 
+            android:summary="@string/lockscreen_summary"
+            android:fragment="com.xzrypr.settings.fragments.Lockscreen"
+            android:icon="@drawable/ic_settings_lockscreen"/>
+
         <!-- Misc -->
         <Preference
             android:key="misc_category"
