@@ -121,4 +121,20 @@
     <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
     <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage and battery temperature on lockscreen while charging</string>
 
+    <!-- Navigation Options -->
+    <string name="xzrypr_system_navigation_title">Navigation options</string>
+    <string name="xzrypr_system_navigation_summary">Change your desired system navigation style</string>
+
+    <!-- Screenshot Gestures -->
+    <string name="xzrypr_three_finger_gesture_title">Swipe to Screnshot</string>
+    <string name="xzrypr_three_finger_gesture_summary">Do screenshot quickly with swipe the screen</string>
+
+    <!-- Quick Torch -->
+    <string name="xzrypr_power_button_torch_title">Quick Torch</string>
+    <string name="xzrypr_power_button_torch_summary">Turn on torch quickly</string>
+
+    <!-- Music Control -->
+    <string name="xzrypr_volume_button_music_control_title">Music Control</string>
+    <string name="xzrypr_volume_button_music_control_summary">Skip or Next Music quickly</string>
+
 </resources>

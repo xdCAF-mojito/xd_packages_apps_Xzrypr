@@ -21,14 +21,16 @@
 	
     <Preference
         android:key="gesture_system_navigation_input_summary"
-        android:title="@string/system_navigation_title"
+        android:title="@string/xzrypr_system_navigation_title"
+        android:summary="@string/xzrypr_system_navigation_summary"
         android:fragment="com.android.settings.gestures.SystemNavigationGestureSettings"
         settings:controller="com.android.settings.gestures.SystemNavigationPreferenceController"
         settings:keywords="@string/keywords_system_navigation" />
 
       <Preference
         android:key="three_finger_gesture_summary"
-        android:title="@string/three_finger_gesture"
+        android:title="@string/xzrypr_three_finger_gesture_title"
+        android:summary="@string/xzrypr_three_finger_gesture_summary"
         android:fragment="com.android.settings.gestures.SwipeToScreenshotGestureSettings"
         settings:controller="com.android.settings.gestures.SwipeToScreenshotPreferenceController" />
 

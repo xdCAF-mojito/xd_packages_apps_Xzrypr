@@ -109,4 +109,16 @@
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">Informasi pengisian daya</string>
   <string name="lockscreen_battery_info_summary">Menampilkan informasi daya pengecasan lebih lanjut</string>
+  <!-- Navigation Options -->
+  <string name="xzrypr_system_navigation_title">Pengaturan navigasi</string>
+  <string name="xzrypr_system_navigation_summary">Personalisasikan gaya navigasi di perangkat anda</string>
+  <!-- Screenshot Gestures -->
+  <string name="xzrypr_three_finger_gesture_title">Gesek layar untuk menangkap layar</string>
+  <string name="xzrypr_three_finger_gesture_summary">Menangkap layar secara cepat hanya dengan menggesek layar anda</string>
+  <!-- Quick Torch -->
+  <string name="xzrypr_power_button_torch_title">Senter Cepat</string>
+  <string name="xzrypr_power_button_torch_summary">Menyalakan senter secara instan</string>
+  <!-- Music Control -->
+  <string name="xzrypr_volume_button_music_control_title">Kontrol musik</string>
+  <string name="xzrypr_volume_button_music_control_summary">Melewati atau melanjutkan musik secara instan</string>
 </resources>
