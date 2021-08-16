@@ -130,4 +130,7 @@
   <!-- Lock Icon -->
   <string name="lockscreen_lock_icon_title">Ikon gembok</string>
   <string name="lockscreen_lock_icon_summary">Tampilkan ikon gembok di layar kunci anda</string>
+  <!-- Statusbar Icon Tuner -->
+  <string name="statusbar_items_title">Ikon status panel</string>
+  <string name="statusbar_items_summary">Personalisasikan ikon yang ditampilkan di status panel</string>
 </resources>
