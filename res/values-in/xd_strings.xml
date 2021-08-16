@@ -133,4 +133,7 @@
   <!-- Statusbar Icon Tuner -->
   <string name="statusbar_items_title">Ikon status panel</string>
   <string name="statusbar_items_summary">Personalisasikan ikon yang ditampilkan di status panel</string>
+  <!-- Lockscreen Face Style -->
+  <string name="clock_style_title">Wajah jam layar kunci</string>
+  <string name="clock_style_summary">Personalisasikan wajah jam di layar kunci perangkat anda</string>
 </resources>
