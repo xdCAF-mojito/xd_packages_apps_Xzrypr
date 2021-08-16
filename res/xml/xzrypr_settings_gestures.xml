@@ -25,12 +25,6 @@
         android:summary="@string/double_tap_to_sleep_summary"
         android:defaultValue="true" />
 
-    <com.xzrypr.settings.preferences.SecureSettingSwitchPreference
-        android:key="double_tap_sleep_lockscreen"
-        android:title="@string/double_tap_sleep_lockscreen_title"
-        android:summary="@string/double_tap_sleep_lockscreen_summary"
-        android:defaultValue="true" />
-
     <Preference
         android:key="gesture_system_navigation_input_summary"
         android:title="@string/xzrypr_system_navigation_title"
