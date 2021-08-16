@@ -26,6 +26,10 @@
   <string name="statusbar_summary">Personalisasikan tampilan Bilah Status Anda</string>
   <string name="buttons_title">Tombol</string>
   <string name="buttons_summary">Sesuaikan fungsi tombol Anda</string>
+  <string name="quicksettings_title">Panel Cepat</string>
+  <string name="quicksettings_summary">Personalisasikan tampilan panel cepat anda</string>
+  <string name="lockscreen_title">Layar Kunci</string>
+  <string name="lockscreen_summary">Personalisasikan tampilan layar kunci anda</string>
   <!-- General strings -->
   <string name="ok">OK</string>
   <string name="reset">Setel ulang</string>
@@ -99,4 +103,34 @@
   <string name="volume_panel_aosp_val">co.potatoproject.plugin.volume.aosp</string>
   <string name="volume_panel_compact_val">co.potatoproject.plugin.volume.compact</string>
   <string name="volume_panel_tiled_val">co.potatoproject.plugin.volume.tiled</string>
+  <!-- Notification Media Options -->
+  <string name="artwork_media_background_title">Latar belakang QS Media</string>
+  <string name="artwork_media_background_summary">Menggunakan Album Art sebagai latar belakang QS Media</string>
+  <!-- Lockscreen battery info indicator  -->
+  <string name="lockscreen_battery_info_title">Informasi pengisian daya</string>
+  <string name="lockscreen_battery_info_summary">Menampilkan informasi daya pengecasan lebih lanjut</string>
+  <!-- Navigation Options -->
+  <string name="xzrypr_system_navigation_title">Pengaturan navigasi</string>
+  <string name="xzrypr_system_navigation_summary">Personalisasikan gaya navigasi di perangkat anda</string>
+  <!-- Screenshot Gestures -->
+  <string name="xzrypr_three_finger_gesture_title">Gesek layar untuk menangkap layar</string>
+  <string name="xzrypr_three_finger_gesture_summary">Menangkap layar secara cepat hanya dengan menggesek layar anda</string>
+  <!-- Quick Torch -->
+  <string name="xzrypr_power_button_torch_title">Senter Cepat</string>
+  <string name="xzrypr_power_button_torch_summary">Menyalakan senter secara instan</string>
+  <!-- Music Control -->
+  <string name="xzrypr_volume_button_music_control_title">Kontrol musik</string>
+  <string name="xzrypr_volume_button_music_control_summary">Melewati atau melanjutkan musik secara instan</string>
+  <!-- Statusbar double tap to sleep -->
+  <string name="double_tap_to_sleep_title">Ketuk Panel status untuk tidur</string>
+  <string name="double_tap_to_sleep_summary">Tidurkan perangkat anda dengan mengetuk dua kali pada panel informasi</string>
+  <!-- Lock Icon -->
+  <string name="lockscreen_lock_icon_title">Ikon gembok</string>
+  <string name="lockscreen_lock_icon_summary">Tampilkan ikon gembok di layar kunci anda</string>
+  <!-- Statusbar Icon Tuner -->
+  <string name="statusbar_items_title">Ikon status panel</string>
+  <string name="statusbar_items_summary">Personalisasikan ikon yang ditampilkan di status panel</string>
+  <!-- Lockscreen Face Style -->
+  <string name="clock_style_title">Wajah jam layar kunci</string>
+  <string name="clock_style_summary">Personalisasikan wajah jam di layar kunci perangkat anda</string>
 </resources>

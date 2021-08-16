@@ -28,6 +28,10 @@
      <string name="statusbar_summary">Personalize how your Status Bar looks like</string>
      <string name="buttons_title">Buttons</string>
      <string name="buttons_summary">Customize your buttons functionality</string>
+     <string name="quicksettings_title">Quick Settings</string>
+     <string name="quicksettings_summary">Customize your quick settings looks</string>
+     <string name="lockscreen_title">Lock Screen</string>
+     <string name="lockscreen_summary">Personalize your lockscreen page</string>
 
      <!-- General strings -->
      <string name="ok">OK</string>
@@ -109,4 +113,49 @@
     <string name="volume_panel_compact_val">co.potatoproject.plugin.volume.compact</string>
     <string name="volume_panel_tiled_val">co.potatoproject.plugin.volume.tiled</string>
 
+    <!-- Notification Media Options -->
+    <string name="artwork_media_background_title">Artwork media background</string>
+    <string name="artwork_media_background_summary">Set media artwork as notification media background</string>
+    
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
+    <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage and battery temperature on lockscreen while charging</string>
+
+    <!-- Navigation Options -->
+    <string name="xzrypr_system_navigation_title">Navigation options</string>
+    <string name="xzrypr_system_navigation_summary">Change your desired system navigation style</string>
+
+    <!-- Screenshot Gestures -->
+    <string name="xzrypr_three_finger_gesture_title">Swipe to Screnshot</string>
+    <string name="xzrypr_three_finger_gesture_summary">Do screenshot quickly with swipe the screen</string>
+
+    <!-- Quick Torch -->
+    <string name="xzrypr_power_button_torch_title">Quick Torch</string>
+    <string name="xzrypr_power_button_torch_summary">Turn on torch quickly</string>
+
+    <!-- Music Control -->
+    <string name="xzrypr_volume_button_music_control_title">Music Control</string>
+    <string name="xzrypr_volume_button_music_control_summary">Skip or Next Music quickly</string>
+
+    <!-- Lock screen cover art -->
+    <string name="lockscreen_media_art_title">Lockscreen media art</string>
+    <string name="lockscreen_media_art_summary">Display media cover art when playing music</string>
+    <string name="lockscreen_media_blur_title">Media art blur level</string>
+
+    <!-- Statusbar double tap to sleep -->
+    <string name="double_tap_to_sleep_title">Status bar double tap to sleep</string>
+    <string name="double_tap_to_sleep_summary">Double tap on the status bar to put the device to sleep</string>
+
+    <!-- Lock Icon -->
+    <string name="lockscreen_lock_icon_title">Lock icon</string>
+    <string name="lockscreen_lock_icon_summary">Display lock icon on the lockscreen</string>
+
+    <!-- Statusbar Icon Tuner -->
+    <string name="statusbar_items_title">Statusbar icon</string>
+    <string name="statusbar_items_summary">Personalize your statusbar icon visibility</string>
+
+    <!-- Lockscreen Face Style -->
+    <string name="clock_style_title">Lockscreen Clock Face</string>
+    <string name="clock_style_summary">Personalize your Clock Face in Lockscreen</string>
+    
 </resources>

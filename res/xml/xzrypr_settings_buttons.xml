@@ -20,13 +20,15 @@
 
     <Preference
         android:key="power_button_torch_summary"
-        android:title="@string/power_button_torch_title"
+        android:title="@string/xzrypr_power_button_torch_title"
+        android:summary="@string/xzrypr_power_button_torch_summary"
         android:fragment="com.android.settings.gestures.PowerButtonTorchSettings"
         settings:controller="com.android.settings.gestures.PowerButtonTorchGesturePreferenceController" />
 
     <Preference
         android:key="volume_button_music_control_sumary"
-        android:title="@string/volume_button_music_control_title"
+        android:title="@string/xzrypr_volume_button_music_control_title"
+        android:summary="@string/xzrypr_volume_button_music_control_summary"
         android:fragment="com.android.settings.gestures.VolumeButtonMusicControlGestureSettings"
         settings:controller="com.android.settings.gestures.VolumeButtonMusicControlPreferenceController" />
 

@@ -32,6 +32,14 @@
             android:fragment="com.xzrypr.settings.fragments.StatusBar" 
             android:icon="@drawable/ic_settings_statusbar"/>
 
+        <!-- Quick Settings -->
+        <Preference
+            android:key="quicksettings_category"
+            android:title="@string/quicksettings_title" 
+            android:summary="@string/quicksettings_summary"
+            android:fragment="com.xzrypr.settings.fragments.QuickSettings"
+            android:icon="@drawable/ic_settings_quicksettings"/>
+
         <!-- Getures -->
         <Preference
             android:key="gestures_category"
@@ -47,6 +55,14 @@
             android:summary="@string/buttons_summary"
             android:fragment="com.xzrypr.settings.fragments.Buttons"
             android:icon="@drawable/ic_settings_buttons"/>
+
+        <!-- Lockscreen -->
+        <Preference
+            android:key="lockscreen_category"
+            android:title="@string/lockscreen_title" 
+            android:summary="@string/lockscreen_summary"
+            android:fragment="com.xzrypr.settings.fragments.Lockscreen"
+            android:icon="@drawable/ic_settings_lockscreen"/>
 
         <!-- Misc -->
         <Preference
