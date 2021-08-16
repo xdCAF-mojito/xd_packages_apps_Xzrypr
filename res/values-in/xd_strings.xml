@@ -15,8 +15,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- XZRYPR Main -->
-  <string name="xzrypr_title">XZRYPR</string>
   <!-- Categories -->
   <string name="gestures_title">Gestur</string>
   <string name="gestures_summary">Operasikan perangkat Anda dengan lebih mudah</string>
