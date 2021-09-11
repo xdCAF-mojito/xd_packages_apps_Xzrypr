@@ -19,11 +19,17 @@
      android:title="@string/misc_title"
      xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+     <Preference
+          android:key="gestures_category"
+          android:title="@string/gestures_title"
+          android:summary="@string/gestures_summary"
+          android:fragment="com.xzrypr.settings.fragments.Gestures"/>
+
      <com.xzrypr.settings.preferences.SecureSettingSwitchPreference
-        android:key="advanced_reboot"
-        android:title="@string/global_actions_advanced_reboot_title"
-        android:summary="@string/global_actions_advanced_reboot_summary"
-        android:defaultValue="false" />
+          android:key="advanced_reboot"
+          android:title="@string/global_actions_advanced_reboot_title"
+          android:summary="@string/global_actions_advanced_reboot_summary"
+          android:defaultValue="false" />
 
      <com.xzrypr.settings.preferences.SystemSettingListPreference
           android:key="systemui_plugin_volume"
