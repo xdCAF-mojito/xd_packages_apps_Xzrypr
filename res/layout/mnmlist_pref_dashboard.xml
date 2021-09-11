@@ -20,6 +20,7 @@
     android:layout_height="110dp"
     android:baselineAligned="false"
     android:gravity="center_vertical"
+    android:layout_gravity="center_vertical"
     style="@style/mnmlist_pref_dashboard">
     
     <androidx.cardview.widget.CardView
@@ -39,7 +40,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:padding="16dp"
-                android:layout_weight="1.0">
+                android:layout_weight="1.0"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical">
             
                 <TextView
                     android:id="@android:id/title"
