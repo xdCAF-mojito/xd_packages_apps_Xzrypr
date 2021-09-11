@@ -42,18 +42,18 @@
             android:fragment="com.xzrypr.settings.fragments.QuickSettings"
             android:icon="@drawable/mnmlist_quicksettings"/>
 
-        <!-- Getures -->
+        <!-- Getures
+             Notes  : This preference moved tempoary to misc because gesture
+                      illustration not done yet
         <Preference
             android:key="gestures_category"
             android:layout="@layout/mnmlist_pref_dashboard"
             android:title="@string/gestures_title"
             android:summary="@string/gestures_summary"
-            android:fragment="com.xzrypr.settings.fragments.Gestures"/>
-            <!-- android:icon="@drawable/mnmlist_gestures" 
-                Gesture illustration are WIP
-                @friction
-            -->
-
+            android:fragment="com.xzrypr.settings.fragments.Gestures"
+            android:icon="@drawable/mnmlist_gestures"/>
+        -->
+        
         <!-- Buttons -->
         <Preference
             android:key="buttons_category"
