@@ -38,4 +38,10 @@
           android:summary="@string/show_app_volume_summary"
           android:defaultValue="false" />
 
+     <!-- Volume panel to left -->
+     <com.xzrypr.settings.preferences.SecureSettingSwitchPreference
+        android:key="volume_panel_on_left"
+        android:title="@string/volume_panel_on_left_title"
+        android:defaultValue="false"/>
+
 </PreferenceScreen>
