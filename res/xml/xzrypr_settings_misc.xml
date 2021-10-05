@@ -32,10 +32,4 @@
           android:entryValues="@array/volume_panel_values"
           android:defaultValue="@string/volume_panel_stock_val" />
 
-     <com.xzrypr.settings.preferences.SecureSettingSwitchPreference
-          android:key="show_app_volume"
-          android:title="@string/show_app_volume_title"
-          android:summary="@string/show_app_volume_summary"
-          android:defaultValue="false" />
-
 </PreferenceScreen>
