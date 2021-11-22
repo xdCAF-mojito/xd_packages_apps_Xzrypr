@@ -15,18 +15,27 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/clocksettings_title" >
 
-    <PreferenceCategory
-        android:title="@string/status_bar_clock_title">
+    <Preference
+        android:layout="@layout/xd_action_bar"
+        android:title="@string/clocksettings_title"
+        android:selectable="false"/>
+
+    <Preference
+        android:layout="@layout/xd_pref_category"
+        android:title="@string/status_bar_clock_clock_title"
+        android:selectable="false"/>
 
         <com.xzrypr.settings.preferences.SystemSettingSwitchPreference
             android:key="statusbar_clock"
             android:title="@string/status_bar_clock_show"
+            android:layout="@layout/xd_pref_card_top"
             android:defaultValue="true" />
 
         <ListPreference
             android:key="statusbar_clock_style"
             android:title="@string/status_bar_clock_style_title"
             android:dialogTitle="@string/status_bar_clock_style_title"
+            android:layout="@layout/xd_pref_card_mid"
             android:entries="@array/status_bar_clock_style_entries"
             android:entryValues="@array/status_bar_clock_style_values"
             android:dependency="statusbar_clock" />
@@ -35,6 +44,7 @@
             android:key="statusbar_am_pm"
             android:title="@string/status_bar_am_pm_title"
             android:dialogTitle="@string/status_bar_am_pm_title"
+            android:layout="@layout/xd_pref_card_mid"
             android:entries="@array/status_bar_am_pm_entries"
             android:entryValues="@array/status_bar_am_pm_values"
             android:dependency="statusbar_clock" />
@@ -42,18 +52,20 @@
         <com.xzrypr.settings.preferences.SystemSettingSwitchPreference
             android:key="statusbar_clock_seconds"
             android:title="@string/clock_seconds_display"
+            android:layout="@layout/xd_pref_card_mid"
             android:dependency="statusbar_clock"
             android:defaultValue="false" />
-
-    </PreferenceCategory>
-
-    <PreferenceCategory
-        android:title="@string/status_bar_date_title">
+    
+    <Preference
+        android:layout="@layout/xd_pref_category"
+        android:title="@string/status_bar_date_title"
+        android:selectable="false"/>
 
         <ListPreference
             android:key="clock_date_display"
             android:title="@string/clock_date_display"
             android:summary="@string/clock_date_display_summary"
+            android:layout="@layout/xd_pref_card_top"
             android:entries="@array/clock_date_display_entries"
             android:entryValues="@array/clock_date_display_values"
             android:dependency="statusbar_clock" />
@@ -62,6 +74,7 @@
             android:key="clock_date_style"
             android:title="@string/clock_date_style"
             android:entries="@array/clock_date_style_entries"
+            android:layout="@layout/xd_pref_card_mid"
             android:entryValues="@array/clock_date_style_values"
             android:dependency="clock_date_display" />
 
@@ -69,6 +82,7 @@
             android:key="clock_date_format"
             android:title="@string/clock_date_format"
             android:entries="@array/clock_date_format_entries_values"
+            android:layout="@layout/xd_pref_card_mid"
             android:entryValues="@array/clock_date_format_entries_values"
             android:dependency="clock_date_display" />
 
@@ -76,9 +90,8 @@
             android:key="statusbar_clock_date_position"
             android:title="@string/clock_date_position"
             android:entries="@array/clock_date_position_entries"
+            android:layout="@layout/xd_pref_card_bot"
             android:entryValues="@array/clock_date_position_values"
             android:dependency="clock_date_display" />
-
-    </PreferenceCategory>
 
 </PreferenceScreen>

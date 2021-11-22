@@ -27,6 +27,7 @@
         android:key="power_button_torch_summary"
         android:title="@string/xzrypr_power_button_torch_title"
         android:summary="@string/xzrypr_power_button_torch_summary"
+        android:layout="@layout/xd_pref_card_top"
         android:fragment="com.android.settings.gestures.PowerButtonTorchSettings"
         settings:controller="com.android.settings.gestures.PowerButtonTorchGesturePreferenceController" />
 
@@ -34,6 +35,7 @@
         android:key="volume_button_music_control_sumary"
         android:title="@string/xzrypr_volume_button_music_control_title"
         android:summary="@string/xzrypr_volume_button_music_control_summary"
+        android:layout="@layout/xd_pref_card_mid"
         android:fragment="com.android.settings.gestures.VolumeButtonMusicControlGestureSettings"
         settings:controller="com.android.settings.gestures.VolumeButtonMusicControlPreferenceController" />
 

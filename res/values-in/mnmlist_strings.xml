@@ -22,6 +22,9 @@
   <string name="misc_summary">Opsi fitur lainnya</string>
   <string name="interfaces_title">Antarmuka sistem</string>
   <string name="interfaces_summary">Personalisasikan tampilan antarmuka sistem Anda</string>
+  <string name="interfaces_style_title">Gaya sistem</string>
+  <string name="interfaces_statusbar_title">Panel status</string>
+  <string name="interfaces_battery_title">Baterai</string>
   <string name="buttons_title">Tombol</string>
   <string name="buttons_summary">Sesuaikan fungsi tombol Anda</string>
   <string name="quicksettings_title">Panel Cepat</string>
@@ -61,6 +64,7 @@
   <!-- Customization Categories/Fragment Titles -->
   <string name="clocksettings_title">Setelan Jam</string>
   <string name="clocksettings_summary">Setelan jam bilah status</string>
+  <string name="status_bar_clock_clock_title">Jam</string>
   <string name="status_bar_clock_date_title">Jam dan Tanggal</string>
   <string name="status_bar_clock_date_summary">Sesuaikan jam dan tanggal bilah status Anda</string>
   <string name="status_bar_clock_title">Setelan jam</string>

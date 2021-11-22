@@ -26,6 +26,9 @@
      <string name="misc_summary">Other features option</string>
      <string name="interfaces_title">System interfaces</string>
      <string name="interfaces_summary">Personalize how your system interfaces looks like</string>
+     <string name="interfaces_style_title">System style</string>
+     <string name="interfaces_statusbar_title">Statusbar</string>
+     <string name="interfaces_battery_title">Battery</string>
      <string name="buttons_title">Buttons</string>
      <string name="buttons_summary">Customize your buttons functionality</string>
      <string name="quicksettings_title">Quick Settings</string>
@@ -73,6 +76,7 @@
     <string name="status_bar_clock_date_title">Clock and Date</string>
     <string name="status_bar_clock_date_summary">Customize your statusbar clock and date</string>
     <string name="status_bar_clock_title">Clock settings</string>
+    <string name="status_bar_clock_clock_title">Clock</string>
     <string name="status_bar_clock_show">Show clock and date</string>
     <string name="status_bar_clock_style_title">Clock style</string>
     <string name="status_bar_clock_style_right">Right</string>
