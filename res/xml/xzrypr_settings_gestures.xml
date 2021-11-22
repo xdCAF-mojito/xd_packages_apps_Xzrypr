@@ -19,6 +19,11 @@
     android:title="@string/gestures_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 	
+    <Preference
+        android:layout="@layout/xd_action_bar"
+        android:title="@string/gestures_title"
+        android:selectable="false"/>
+
     <!-- com.xzrypr.settings.preferences.SecureSettingSwitchPreference
         android:key="double_tap_sleep_gesture"
         android:title="@string/double_tap_to_sleep_title"

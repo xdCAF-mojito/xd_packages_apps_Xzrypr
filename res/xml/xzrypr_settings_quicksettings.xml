@@ -15,8 +15,13 @@
 -->
 <PreferenceScreen
      xmlns:android="http://schemas.android.com/apk/res/android"
-     android:title="@string/quicksettings_title"
+     android:title=" "
      xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+
+    <Preference
+        android:layout="@layout/xd_action_bar"
+        android:title="@string/quicksettings_title"
+        android:selectable="false"/>
 
      <com.xd.support.preferences.CustomSystemSeekBarPreference
           android:key="qs_rows_portrait"
