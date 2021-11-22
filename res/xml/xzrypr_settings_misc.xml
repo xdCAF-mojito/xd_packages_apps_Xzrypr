@@ -16,13 +16,19 @@
 -->
 <PreferenceScreen
      xmlns:android="http://schemas.android.com/apk/res/android"
-     android:title="@string/misc_title"
+     android:title=" "
      xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+
+    <Preference
+        android:layout="@layout/xd_action_bar"
+        android:title="@string/misc_title"
+        android:selectable="false"/>
 
      <com.xzrypr.settings.preferences.SecureSettingSwitchPreference
           android:key="advanced_reboot"
           android:title="@string/global_actions_advanced_reboot_title"
           android:summary="@string/global_actions_advanced_reboot_summary"
+          android:layout="@layout/xd_pref_card_top"
           android:defaultValue="false" />
 
      <com.xzrypr.settings.preferences.SystemSettingListPreference
@@ -30,6 +36,7 @@
           android:title="@string/volume_panel"
           android:entries="@array/volume_panel_entries"
           android:entryValues="@array/volume_panel_values"
+          android:layout="@layout/xd_pref_card_bot"
           android:defaultValue="@string/volume_panel_stock_val" />
 
 </PreferenceScreen>

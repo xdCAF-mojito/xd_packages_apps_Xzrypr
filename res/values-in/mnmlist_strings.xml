@@ -20,8 +20,11 @@
   <string name="gestures_summary">Operasikan perangkat Anda dengan lebih mudah</string>
   <string name="misc_title">Opsi lain</string>
   <string name="misc_summary">Opsi fitur lainnya</string>
-  <string name="statusbar_title">Bilah Status</string>
-  <string name="statusbar_summary">Personalisasikan tampilan Bilah Status Anda</string>
+  <string name="interfaces_title">Antarmuka sistem</string>
+  <string name="interfaces_summary">Personalisasikan tampilan antarmuka sistem Anda</string>
+  <string name="interfaces_style_title">Gaya sistem</string>
+  <string name="interfaces_statusbar_title">Panel status</string>
+  <string name="interfaces_battery_title">Baterai</string>
   <string name="buttons_title">Tombol</string>
   <string name="buttons_summary">Sesuaikan fungsi tombol Anda</string>
   <string name="quicksettings_title">Panel Cepat</string>
@@ -61,6 +64,7 @@
   <!-- Customization Categories/Fragment Titles -->
   <string name="clocksettings_title">Setelan Jam</string>
   <string name="clocksettings_summary">Setelan jam bilah status</string>
+  <string name="status_bar_clock_clock_title">Jam</string>
   <string name="status_bar_clock_date_title">Jam dan Tanggal</string>
   <string name="status_bar_clock_date_summary">Sesuaikan jam dan tanggal bilah status Anda</string>
   <string name="status_bar_clock_title">Setelan jam</string>
@@ -138,4 +142,9 @@
   <string name="qs_columns_portrait_title">Kolom ubin pada potret</string>
   <string name="qs_columns_landscape_title">Kolom ubin pada lanskap</string>
   <string name="qs_tile_title_visibility_title">Tampilkan judul ubin</string>
+  <!-- Theme -->
+  <string name="theme_customization_accent_color_title">Aksen warna</string>
+  <string name="theme_customization_font_title">Gaya huruf</string>
+  <string name="theme_customization_icon_shape_title">Bentuk ikon</string>
+  <string name="theme_customization_sysui_icon_title">Gaya ikon</string>
 </resources>

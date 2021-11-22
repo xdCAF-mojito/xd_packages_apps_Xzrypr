@@ -19,6 +19,11 @@
     android:title="@string/gestures_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 	
+    <Preference
+        android:layout="@layout/xd_action_bar"
+        android:title="@string/gestures_title"
+        android:selectable="false"/>
+
     <!-- com.xzrypr.settings.preferences.SecureSettingSwitchPreference
         android:key="double_tap_sleep_gesture"
         android:title="@string/double_tap_to_sleep_title"
@@ -29,6 +34,7 @@
         android:key="gesture_system_navigation_input_summary"
         android:title="@string/xzrypr_system_navigation_title"
         android:summary="@string/xzrypr_system_navigation_summary"
+        android:layout="@layout/xd_pref_card_top"
         android:fragment="com.android.settings.gestures.SystemNavigationGestureSettings"
         settings:controller="com.android.settings.gestures.SystemNavigationPreferenceController"
         settings:keywords="@string/keywords_system_navigation" />
@@ -37,6 +43,7 @@
         android:key="three_finger_gesture_summary"
         android:title="@string/xzrypr_three_finger_gesture_title"
         android:summary="@string/xzrypr_three_finger_gesture_summary"
+        android:layout="@layout/xd_pref_card_bot"
         android:fragment="com.android.settings.gestures.SwipeToScreenshotGestureSettings"
         settings:controller="com.android.settings.gestures.SwipeToScreenshotPreferenceController" />
 
