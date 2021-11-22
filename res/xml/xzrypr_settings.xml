@@ -24,14 +24,14 @@
         android:title="@string/xzrypr_title"
         android:selectable="false"/>
 
-        <!-- Status Bar -->
+        <!-- System Interfaces -->
         <Preference
             android:key="statusbar_category"
             android:layout="@layout/mnmlist_pref_dashboard"
-            android:title="@string/statusbar_title"
-            android:summary="@string/statusbar_summary"
-            android:fragment="com.xzrypr.settings.fragments.StatusBar" 
-            android:icon="@drawable/mnmlist_statusbar"/>
+            android:title="@string/interfaces_title"
+            android:summary="@string/interfaces_summary"
+            android:fragment="com.xzrypr.settings.fragments.Interfaces" 
+            android:icon="@drawable/mnmlist_interfaces"/>
 
         <!-- Quick Settings -->
         <Preference
