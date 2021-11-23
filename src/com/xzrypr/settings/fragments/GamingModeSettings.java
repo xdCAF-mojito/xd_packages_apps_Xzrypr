@@ -32,8 +32,6 @@ import java.util.ArrayList;
 
 import com.xzrypr.settings.preferences.PackageListPreference;
 
-import lineageos.hardware.LineageHardwareManager;
-
 public class GamingModeSettings extends SettingsPreferenceFragment {
 
     private SwitchPreference mHardwareKeysDisable;
@@ -46,12 +44,6 @@ public class GamingModeSettings extends SettingsPreferenceFragment {
         addPreferencesFromResource(R.xml.xd_settings_gaming);
         
         final PreferenceScreen prefScreen = getPreferenceScreen();
-
-        mHardwareKeysDisable = findPreference(Settings.System.GAMING_MODE_DISABLE_HW_KEYS);
-        LineageHardwareManager mLineageHardware = LineageHardwareManager.getInstance(getActivity());
-        if (!mLineageHardware.isSupported(LineageHardwareManager.FEATURE_KEY_DISABLE)) {
-            prefScreen.removePreference(mHardwareKeysDisable);
-        }
 
         mGamingPrefList = (PackageListPreference) findPreference("gaming_mode_app_list");
         mGamingPrefList.setRemovedListKey(Settings.System.GAMING_MODE_REMOVED_APP_LIST);

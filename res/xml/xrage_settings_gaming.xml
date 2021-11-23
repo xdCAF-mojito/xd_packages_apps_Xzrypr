@@ -109,12 +109,6 @@
         android:title="@string/gaming_mode_prevent_accidental_touch">
 
         <com.xzrypr.settings.preferences.SystemSettingSwitchPreference
-            android:key="gaming_mode_disable_hw_keys"
-            android:title="@string/gaming_mode_disable_hw_keys_title"
-            android:defaultValue="false"
-            android:dependency="gaming_mode_enabled" />
-
-        <com.xzrypr.settings.preferences.SystemSettingSwitchPreference
             android:key="gaming_mode_disable_gesture"
             android:title="@string/gaming_mode_disable_gesture_title"
             android:defaultValue="false"
