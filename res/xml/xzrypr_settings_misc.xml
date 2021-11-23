@@ -36,6 +36,6 @@
           android:key="gaming_category"
           android:title="@string/gaming_title" 
           android:layout="@layout/xd_pref_card_bot"
-          android:fragment="org.exthmui.settings.fragments.GamingModeSettings"/>
+          android:fragment="com.xzrypr.settings.fragments.GamingModeSettings"/>
 
 </PreferenceScreen>

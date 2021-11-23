@@ -51,7 +51,7 @@ public class GamingModeSettings extends SettingsPreferenceFragment implements On
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
-        addPreferencesFromResource(R.xml.xd_settings_gaming);
+        addPreferencesFromResource(R.xml.xrage_settings_gaming);
         
         final PreferenceScreen prefScreen = getPreferenceScreen();
 
