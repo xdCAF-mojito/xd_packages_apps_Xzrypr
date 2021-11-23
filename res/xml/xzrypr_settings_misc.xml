@@ -31,12 +31,4 @@
           android:layout="@layout/xd_pref_card_top"
           android:defaultValue="false" />
 
-     <com.xzrypr.settings.preferences.SystemSettingListPreference
-          android:key="systemui_plugin_volume"
-          android:title="@string/volume_panel"
-          android:entries="@array/volume_panel_entries"
-          android:entryValues="@array/volume_panel_values"
-          android:layout="@layout/xd_pref_card_bot"
-          android:defaultValue="@string/volume_panel_stock_val" />
-
 </PreferenceScreen>

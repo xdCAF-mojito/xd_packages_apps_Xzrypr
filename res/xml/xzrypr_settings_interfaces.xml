@@ -49,6 +49,14 @@
         android:title="@string/theme_customization_sysui_icon_title"
         android:layout="@layout/xd_pref_card_bot"/>
 
+     <com.xzrypr.settings.preferences.SystemSettingListPreference
+        android:key="systemui_plugin_volume"
+        android:title="@string/volume_panel"
+        android:entries="@array/volume_panel_entries"
+        android:entryValues="@array/volume_panel_values"
+        android:layout="@layout/xd_pref_card_bot"
+        android:defaultValue="@string/volume_panel_stock_val" />
+
     <Preference
         android:layout="@layout/xd_pref_category"
         android:title="@string/interfaces_statusbar_title"
