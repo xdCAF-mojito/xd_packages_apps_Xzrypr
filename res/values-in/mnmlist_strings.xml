@@ -147,4 +147,52 @@
   <string name="theme_customization_font_title">Gaya huruf</string>
   <string name="theme_customization_icon_shape_title">Bentuk ikon</string>
   <string name="theme_customization_sysui_icon_title">Gaya ikon</string>
+  <!-- Gaming mode -->
+  <string name="gaming_title">Mode Gaming</string>
+  <string name="gaming_mode_enabled_title">Nyalakan mode gaming</string>
+  <string name="gaming_mode_disable_auto_brightness_title">Matikan kecerahan otomatis</string>
+  <string name="gaming_mode_disable_auto_brightness_summary">Mematikan kecerahan otomatis ketika didalam mode gaming</string>
+  <string name="gaming_mode_notification_danmaku_title">Notifikasi berjalan</string>
+  <string name="gaming_mode_notification_danmaku_summary">Menampilkan notifikasi berjalan di layar ketika didalam mode gaming</string>
+  <string name="gaming_mode_quick_start_apps_title">Aplikasi Mulai Cepat</string>
+  <string name="gaming_mode_quick_start_apps_summary">Pilih aplikasi yang ingin Anda luncurkan dengan bola mengambang</string>
+  <string name="profile_choose_app">Pilih aplikasi</string>
+  <string name="dialog_delete_title">Hapus</string>
+  <string name="dialog_delete_message">Hapus item yang dipilih?</string>
+  <string name="add_package_to_title">Tambahkan aplikasi</string>
+  <string name="gaming_mode_performance">Performa</string>
+  <string name="gaming_mode_use_game_driver_title">Menggunakan driver game</string>
+  <string name="gaming_mode_use_game_driver_summary">Menggunakan driver game untuk aplikasi</string>
+  <string name="gaming_mode_change_performance_title">Penyesuaian kinerja</string>
+  <string name="gaming_mode_change_performance_summary">Sesuaikan tingkat kinerja saat memulai permainan</string>
+  <string name="gaming_mode_performance_title">Tingkat kinerja</string>
+  <string name="gaming_mode_dnd">Jangan ganggu</string>
+  <string name="gaming_mode_disable_notification_alert_title">Nonaktifkan peringatan notifikasi</string>
+  <string name="gaming_mode_disable_notification_alert_summary">Jangan izinkan notifikasi mengambang dan gelembung percakapan selain panggilan masuk dan alarm</string>
+  <string name="gaming_mode_disable_ringtone_title">Tidak berdering</string>
+  <string name="gaming_mode_disable_ringtone_summary">Matikan dering panggilan masuk dan notifikasi dalam mode permainan</string>
+  <string name="gaming_mode_auto_answer_call_title">Menjawab panggilan secara otomatis</string>
+  <string name="gaming_mode_auto_answer_call_summary">Jawab panggilan secara otomatis dalam game dan handsfree saat tidak ada headphone yang terhubung</string>
+  <string name="gaming_mode_prevent_accidental_touch">Mencegah sentuhan yang tidak disengaja</string>
+  <string name="gaming_mode_disable_hw_keys_title">Nonaktifkan tombol perangkat keras</string>
+  <string name="gaming_mode_disable_gesture_title">Nonaktifkan gestur</string>
+  <string name="gaming_mode_apps">Daftar game</string>
+  <string name="gaming_mode_dynamic_add_title">Modus dinamis</string>
+  <string name="gaming_mode_dynamic_add_summary">Coba deteksi dan tambahkan aplikasi game secara otomatis</string>
+  <string name="gaming_mode_show_danmaku_title">Tampilkan notifikasi berjalan</string>
+  <string name="gaming_mode_danmaku_dynamic_notification_filter_title">Pemberitahuan pemfilteran dinamis</string>
+  <string name="gaming_mode_danmaku_dynamic_notification_filter_summary">Secara otomatis menyaring pemberitahuan seperti kemajuan unduhan</string>
+  <string name="gaming_mode_danmaku_size_horizontal_title">Ukuran notifikasi (horizontal)</string>
+  <string name="gaming_mode_danmaku_size_vertical_title">Ukuran notifikasi  (vertical)</string>
+  <string name="gaming_mode_danmaku_speed_horizontal_title">Kecepatan notifikasi (horizontal)</string>
+  <string name="gaming_mode_danmaku_speed_vertical_title">Kecepatan notifikasi (vertical)</string>
+  <string name="gaming_mode_danmaku_blacklist">Daftar hitam</string>
+  <string name="gaming_mode_menu_opacity_title">Tingkat opasitas menu</string>
+  <string name="gaming_mode_use_menu_overlay_title">Tampilkan menu overlay</string>
+  <string name="gaming_mode_use_menu_overlay_summary">Tampilkan menu overlay saat game sedang berjalan. Jika opsi ini dinonaktifkan, beberapa fitur mode permainan akan dinonaktifkan, seperti notifikasi berjalan</string>
+  <!-- Custom seekbar -->
+  <string name="custom_seekbar_value">Nilai: <xliff:g id="v">%s</xliff:g></string>
+  <string name="custom_seekbar_default_value">secara bawaan</string>
+  <string name="custom_seekbar_default_value_to_set">Nilai bawaan: <xliff:g id="v">%s</xliff:g>\nTahan untuk mengubah</string>
+  <string name="custom_seekbar_default_value_is_set">Nilai bawaan terset</string>
 </resources>
