@@ -178,6 +178,7 @@
 
     <!-- Gaming mode -->
     <string name="gaming_title">Gaming mode</string>
+    <string name="gaming_summary">Help your gaming experience</string>
     <string name="gaming_mode_enabled_title">Enable gaming mode</string>
     <string name="gaming_mode_disable_auto_brightness_title">Disable automatic brightness</string>
     <string name="gaming_mode_disable_auto_brightness_summary">Disable auto brightness when entering game mode</string>
