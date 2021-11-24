@@ -31,4 +31,11 @@
           android:layout="@layout/xd_pref_card_top"
           android:defaultValue="false" />
 
+     <!-- Gaming mode -->
+     <Preference
+          android:key="gaming_category"
+          android:title="@string/gaming_title" 
+          android:layout="@layout/xd_pref_card_bot"
+          android:fragment="com.xzrypr.settings.fragments.GamingModeSettings"/>
+
 </PreferenceScreen>
