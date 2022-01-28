@@ -196,4 +196,7 @@
   <string name="custom_seekbar_default_value">secara bawaan</string>
   <string name="custom_seekbar_default_value_to_set">Nilai bawaan: <xliff:g id="v">%s</xliff:g>\nTahan untuk mengubah</string>
   <string name="custom_seekbar_default_value_is_set">Nilai bawaan terset</string>
+  <!-- Invert Navbar Layout -->
+  <string name="navbar_invert_layout_title">Balikkan layout</string>
+  <string name="navbar_invert_layout_summary">Balikkan layout navbar saat menggunakan navigasi 3 tombol</string>
 </resources>
